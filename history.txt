@@ -1,0 +1,79 @@
+    1  VirtualBox --startvm XP
+    2  firefox
+    3  pwd
+    4  firefox
+    5  pwd
+    6  whoami
+    7  pwd
+    8  whoami
+    9  fuckoff
+   10  pwd
+   11  internetexplorer
+   12  googlechrome
+   13  ls
+   14  man
+   15  man xd
+   16  cd ..
+   17  pwd
+   18  cd .
+   19  ls
+   20  ls
+   21  cd ..
+   22  cd .
+   23  cs
+   24  cd
+   25  ls
+   26  ls
+   27  echo
+   28  cat
+   29  >
+   30  history
+   31  cat /etc/*-release
+   32  echo $0
+   33  sh]
+   34  sh\
+   35  sh
+   36  pwd
+   37  who
+   38  whoami
+   39  who
+   40  ls
+   41  ls -l
+   42  ls -la
+   43  ls -a
+   44  ls -la
+   45  ls
+   46  cd Documents/
+   47  pwd
+   48  ls
+   49  cd ..
+   50  pwd
+   51  cd ..
+   52  pwd
+   53  cd ..
+   54  pwd
+   55  cd ..
+   56  cd /home
+   57  cd /home/user
+   58  cd
+   59  make mapite
+   60  cd /
+   61  pwd
+   62  ls
+   63  mk
+   64  mkdir darbi
+   65  cd ~
+   66  mkdir Documents/
+   67  ls Documents/
+   68  man sauc maqaatis\
+   69  .
+   70  mk
+   71  mkdir darbi
+   72  ls
+   73  cd darbi/
+   74  pwd
+   75  cd ..
+   76  cd darbi/
+   77  ls -la
+   78  history
+   79  history > history.txt
