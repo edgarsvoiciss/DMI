@@ -1,5 +1,5 @@
-    1  VirtualBox --startvm XP
-    2  firefox
+
+
     3  pwd
     4  firefox
     5  pwd
@@ -33,47 +33,16 @@
    33  sh]
    34  sh\
    35  sh
-   36  pwd
-   37  who
-   38  whoami
-   39  who
-   40  ls
-   41  ls -l
-   42  ls -la
-   43  ls -a
-   44  ls -la
-   45  ls
-   46  cd Documents/
-   47  pwd
-   48  ls
-   49  cd ..
-   50  pwd
-   51  cd ..
-   52  pwd
-   53  cd ..
-   54  pwd
-   55  cd ..
-   56  cd /home
-   57  cd /home/user
-   58  cd
-   59  make mapite
-   60  cd /
-   61  pwd
-   62  ls
-   63  mk
-   64  mkdir darbi
-   65  cd ~
-   66  mkdir Documents/
-   67  ls Documents/
-   68  man sauc maqaatis\
-   69  .
-   70  mk
-   71  mkdir darbi
-   72  ls
-   73  cd darbi/
-   74  pwd
-   75  cd ..
-   76  cd darbi/
-   77  ls -la
-   78  history
-   79  history > history.txt
+   36  ls
+   37  cat history
+   38  cat history.txt
+   39  git init
+   40  git add .
+   41  git config --global user.email voicissedgars@gmail.com
+   42  ls
+   43  git commit -m "20170914_15_55"
+   44  git remote add origin https://github.com/edgarsvoiciss/DMI.git
+   45  git push origin master
+   46  ls -l
+   47  cat history.txt
+   48  history > history.txt
