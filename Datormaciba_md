@@ -1,0 +1,19 @@
+
+cat         Nolasa datus par failiem/mapēm.
+cd          Mainīt atrašanās vietu ( directory).
+cd ..       Iziet no esošās mapes/faila.
+chmod       Mainīt piekļuvi failam ( permission).
+cp          Kopēt failus.
+echo        Teksta atkārtošanai, piemēram, rakstot skriptus.
+echo $0	    Attēlo ejošo procesu.
+firefox     Atvērt internetpārlūku.         
+ls
+ls -l       Parāda informāciju par failiem(ls, ls -l, ls -la).
+ls -la
+man         Instrukciajs par kādu konkrētu komandu.
+mkdir       Jauna direktorija izveidošana.
+mv          Pārvietot failus.
+nano        Teksta editors (skriptu rakstīšanai).
+pwd         Parāda esošo atrašanās vietu (directory).
+rmdir       Direktorija dzēšana.
+whoami      Parāda datus par esošo lietotāju.
