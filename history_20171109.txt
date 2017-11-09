@@ -1,0 +1,89 @@
+    1  VirtualBox --startvm XP
+    2  git clone https://github.com/edgarsvoiciss/DMI.git
+    3  cd DMI
+    4  ls -l
+    5  ls-la
+    6  ls -la
+    7  ls
+    8  ls -la
+    9  mkdir PYTHON
+   10  ls -l
+   11  cd PYTHON
+   12  nano hello.py
+   13  whereis PYTHON
+   14  whereis python
+   15  nano hello.py
+   16  ./ hello.py
+   17  ./hello.py
+   18  chmod 744 hello.py
+   19  ./hello.py
+   20  nano hello.py
+   21  ./hello.py
+   22  nano hello.py
+   23  ./hello.py
+   24  nano hello.py
+   25  ./hello.py
+   26  nano hello.py
+   27  ./hello.py
+   28  nano hello.py
+   29  ./hello.py
+   30  nano hello.py
+   31  ./hello.py
+   32  nano hello.py
+   33  ./hello.py
+   34  nano hello.py
+   35  ./hello.py
+   36* ./varin
+   37  nano variables.py
+   38  chmod 744 variables.py
+   39  ./variables.py
+   40  nano variables.py
+   41  ./variables.py
+   42  nano variables.py
+   43  ./variables.py
+   44  nano variables.py
+   45  ./variables
+   46  ./variables.py
+   47  nano variables.py
+   48  ./variables.py
+   49  nano variables.py
+   50  ./variables.py
+   51  nano variables.py
+   52  ./variables.py
+   53  nano variables.py
+   54  ./variables.py
+   55* 
+   56  ./variables.py
+   57  nano variables.py
+   58  ./variables.py
+   59  nano variables.py
+   60  ./variables.py
+   61  nano variables.py
+   62  nano dialogs.py
+   63  chmod 744 dialogs.py
+   64  ./dialogs.py 
+   65  nano dialogs.py
+   66  ./dialogs.py 
+   67  nano dialogs.py
+   68  ./dialogs.py 
+   69  nano dialogs.py
+   70  ./dialogs.py 
+   71  nano dialogs.py
+   72  ./dialogs.py 
+   73  nano dialogs.py
+   74  ./dialogs.py 
+   75  nano dialogs.py
+   76  ./dialogs.py 
+   77  nano dialogs.py
+   78  ./dialogs.py 
+   79  nano dialogs.py
+   80  nano if.py
+   81  ./if.py
+   82  python if.py
+   83  nano if.py
+   84  python if.py
+   85  nano if.py
+   86  idle &
+   87  ls -l
+   88  cd ..
+   89  history > history_20171109.txt
