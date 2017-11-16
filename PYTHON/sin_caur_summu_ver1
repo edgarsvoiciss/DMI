@@ -1,0 +1,7 @@
+# -*- coding: utf-8 -*-
+from math import sin
+
+x = input("Lietotāj, lūdzu, ievadi argumentu (x): ")
+print type(x)
+y = sin(x)
+print "sin(%.2f)=%.2f"%(x,y)
