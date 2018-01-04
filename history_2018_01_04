@@ -1,0 +1,28 @@
+    1  VirtualBox --startvm XP
+    2  git clone https://github.com/edgarsvoiciss/DMI.git
+    3  ls -l
+    4  cd DMI
+    5  ls -l
+    6  cd PYTHON
+    7  ls -l
+    8  nano Pirmaislabdarbs.py
+    9  ./ pirmaislabdarbs.py
+   10  Pirmaislabdabrs.py
+   11  Pirmaislabdarbs.py
+   12  nano Pirmaislabdarbs.py
+   13  cd .. PYTHON
+   14  ls -l
+   15  nano labdarbs1
+   16  nano labdarbs.sh
+   17  nano labsdarbs1.sh
+   18  nano labdarbs1.sh
+   19  ./labdarbs1.sh
+   20  chmod 744 labdarbs1.sh
+   21  ./labdarbs1.sh
+   22  nano labdarbs1.sh 
+   23  ./labdarbs1.sh
+   24  cd PYTHON
+   25  ls -l
+   26  nano labdarbs2.py
+   27  cd .. PYTHON
+   28  history > history_2018_01_04
