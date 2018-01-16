@@ -1,4 +1,3 @@
-#!/usr/bin/python
 # -*- coding: utf-8 -*-
 
 from math import sin
@@ -11,7 +10,7 @@ def mans_kosinussh(x):
       S = a
       while k<500:
          k = k + 1
-	 R = x**2 / ((2**2)*(2*k-1)*2*k)
+         R = x**2 / ((2**2)*(2*k-1)*2*k)
          a = a * R
          S = S + a
 
@@ -19,12 +18,12 @@ def mans_kosinussh(x):
 
 
 def citafunkcija(x):
-      return mans_kossinussh(x)-10
+      return mans_kosinussh(x)-3
 
 a = 2.57 #pi/2
 b = 4.71 #3*pi/2
 x = np.arange(a,b,0.01)
-y = np.cosh(x)
+y = np.cosh(x/2)
 yy = mans_kosinussh(x)
 plt.plot(x,y)
 plt.plot (x,yy)
@@ -41,7 +40,7 @@ if funa * funb > 0:
 
 
 print "Turpinajums, ja sakne tomer ir:"
-delta_x = 1.e-3 # 1.e3 vs 0.001 vai 1*10^(-3)
+delta_x = 1.e-5
 k = 0
 while b-a > delta_x:
     k = k+1
@@ -61,3 +60,4 @@ print "x=%.5f f(x)=%.5f"%(x,funx),
 print "b=%.5f f(b)=%.5f"%(b,citafunkcija(b)),
 print "Rezultats ir sasniegts %d iteracijas"%(k)
 print "Sakne ir %.5f, tâpçc ka y ir vienâds ar %.5f."%(x,citafunkcija(x))
+print "Ievadot vērtību (mans_kosinussh)=-3, šis līmenis tiek sasniegts pie argumenta (a)=3.5"

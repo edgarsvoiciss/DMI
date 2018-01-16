@@ -1,0 +1,12 @@
+    1  VirtualBox --startvm XP
+    2  git clone https://github.com/edgarsvoiciss/DMI.git
+    3  ls -l
+    4  cd DMI
+    5  ls -l
+    6  cd PYTHON
+    7  ls -l
+    8  idle &
+    9  ls -l
+   10  cd .. PYTHON
+   11  nano git-upload
+   12  history>history_2018_16_01

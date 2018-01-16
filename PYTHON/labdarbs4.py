@@ -1,4 +1,3 @@
-#!/usr/bin/python
 # -*- coding: utf-8 -*-
 
 import numpy as np
@@ -11,23 +10,24 @@ def mans_kosinussh(x):
       S = a
       while k<500:
          k = k + 1
-	 R = x**2 / ((2**2)*(2*k-1)*2*k)
+         R = x**2 / ((2**2)*(2*k-1)*2*k)
          a = a * R
          S = S + a
 
       return S
 
 
-a = -np.pi #pi/2
-b = 1 * np.pi #4.71 #3*pi/2
+a = -1
+b = 1
 x = np.arange(a,b,0.05)
 y = mans_kosinussh(x)
-plt.plot(x,y,'go')
+plt.plot(x,y,'g')
 plt.grid()
 plt.xlabel('x ')
 plt.ylabel('y ')
-
-
+plt.text(-0.1, 0.9, 'Funkcija')
+plt.text(-0.2, 0.15, '2.k atvasinajums')
+plt.text(-0.2, -0.1, '1.k atvasinajums')
 
 
 n = len(x)
@@ -41,7 +41,7 @@ for i in range(n-1):
     y_prim.append(delta_y/delta_x)
     #print y_prim[i]
 
-plt.legend(plt.plot(x[:n-1],y_prim,'rv'))
+plt.plot(x[:n-1],y_prim,'r')
 
 
 y_2prim = []
@@ -50,7 +50,7 @@ for i in range(n-2):
     delta_y_prim = y_prim[i+1]-y_prim[i]
     y_2prim.append(delta_y_prim/delta_x)
 
-plt.legend(plt.plot(x[:n-2],y_2prim,'b*'))
+plt.plot(x[:n-2],y_2prim,'b')
 
 
 
