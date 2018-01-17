@@ -12,7 +12,7 @@ fi
 echo "Sis teksts tiks attelots JEBKURA GADIJUMA"
 
 
-
+#...
 
 
 
