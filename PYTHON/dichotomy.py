@@ -20,7 +20,7 @@ x = np.arange(a,b,0.01)
 y = mans_sinuss(x)
 plt.plot(x,y)
 plt.grid()
-#plt.show()
+plt.show()
 
 
 funa = mans_sinuss(a)
